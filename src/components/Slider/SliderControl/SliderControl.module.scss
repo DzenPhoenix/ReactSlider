@@ -1,0 +1,15 @@
+@import './SliderControl.style.config.scss';
+
+.wrapper{
+    background-color: $mainColor;
+}
+
+.iconsPanel{
+    @extend %flexContainer;
+    justify-content: space-evenly;  
+}
+
+.rangePanel{
+    @extend %flexContainer;
+    justify-content:flex-start;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  font-size: 14px;
+  background-color: green;
+}
+
+.wrapper img {
+  height: 90%;
+}
+
+.wrapper figcaption {
+  height: 10%;
+  background-color: yellowgreen;
+}

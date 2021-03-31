@@ -1,0 +1,13 @@
+@import './SliderView.style.config.scss';
+
+.wrapper{
+    font-size: $fontSize;
+    background-color: $mainColor;
+    img{
+        height: $heightRatio;
+    }
+    figcaption{
+        height: 100-$heightRatio;
+        background-color: $secondaryColor;
+    }
+}

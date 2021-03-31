@@ -1,0 +1,11 @@
+$mainColor:green;
+$borderColor:black;
+$borderThikness:1px;
+$borderStyle:solid;
+
+%flexContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:$borderThikness $borderStyle $borderColor;
+}
